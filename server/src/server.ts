@@ -5,7 +5,7 @@ const app =  fastify()
 app.register(cors)
 
 app.listen({
-    port: 5555,
+    port: 8000,
 }).then(()=> {
-    console.log("server running in http://localhost:5555")
+    console.log("server running in http://localhost:8000")
 }) 
